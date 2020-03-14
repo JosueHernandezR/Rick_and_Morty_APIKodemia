@@ -6,6 +6,13 @@ async function getAllCharacters(){
     return parsedJson.results
 }
 
+async function getAllCharactersById(id){
+    const response = await fetch(`https://rickandmortyapi.com/api/character/${id}`);
+    const parsedJson = await response.json()
+    return parsedJson
+}
+
 export default {
-    getAllCharacters
+    getAllCharacters,
+    getAllCharactersById
 }

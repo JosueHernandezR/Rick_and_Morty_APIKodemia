@@ -90,7 +90,7 @@ class App extends React.Component {
                   </figure>
                 </div>
                 <div className="Card-detalle-descripcion">
-                  <div className="descripcion">
+                  56<div className="descripcion">
                     <h3>{this.state.personajeSeleccionado.name}</h3>
                     <div className="caracteristica">
                       <p>Status</p>

@@ -51,7 +51,7 @@ class App extends React.Component {
       >
         <div className="Card-image">
           <figure>
-            <img src={p.image} />
+            <img  alt="" src={p.image} />
           </figure>
         </div>
         <div className="Card-descripcion">

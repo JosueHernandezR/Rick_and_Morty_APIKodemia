@@ -93,3 +93,14 @@ figure{
 .caracteristica-valor{
   color: #17ff75;
 }
+
+
+@media screen and (max-width: 570px){
+  .Cards-container{
+    justify-content: center;
+  }
+  
+  .Card-detalle{
+    flex-direction: column;
+  }
+}
